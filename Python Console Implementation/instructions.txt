@@ -1,0 +1,17 @@
+All the instructions are provided through 'process_table.txt' file
+
+First Line: ['first', 'shortest']
+    First lines detects the algorith to use.
+    'first' implements First come first serve algorithm
+    'shortest' implements Shortest Job Next algorithm
+
+Second Line: [process_id,arrival_time,cpu_burst]
+    Second Line is just a header with three columns seperated with a comma (,)
+
+Third and rest of the lines
+    process_id, arrival_time, cpu_burst of each process_id
+    eg: 0,1,5
+
+To run the program:
+    execute 'execute.py' file once you're done modifying the text file.
+    
